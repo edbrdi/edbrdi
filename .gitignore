@@ -1,0 +1,5 @@
+.DS_Store
+scripts/podcast/work/
+scripts/.demo*
+preview.html
+__pycache__/

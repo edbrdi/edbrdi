@@ -1,0 +1,205 @@
+{
+  "hero": {
+    "kicker": "edbrdi · AI engineer",
+    "title": "I build AI agents that run in production",
+    "lede": "and train the small models they listen with, from the first training run to the device.",
+    "chips": [
+      "agents",
+      "model training",
+      "optimization",
+      "on-device",
+      "integrations"
+    ]
+  },
+  "pipelineTitle": "WHAT I DO, END TO END",
+  "pipeline": [
+    {
+      "title": "Train",
+      "text": "My own architectures, big models as teachers only"
+    },
+    {
+      "title": "Optimize",
+      "text": "Distill, quantize to 4-bit, fit a phone"
+    },
+    {
+      "title": "Ship",
+      "text": "One Rust engine: web, Python, Android, iOS"
+    },
+    {
+      "title": "Integrate",
+      "text": "LiveKit, Pipecat, Home Assistant plugins"
+    },
+    {
+      "title": "Run",
+      "text": "Agents in prod: tools, evals, latency"
+    }
+  ],
+  "alkove": {
+    "kicker": "OPEN SOURCE · ON-DEVICE VOICE",
+    "title": "Alkove",
+    "text": "Listens to one voice, answers to any name. Voice isolation, wake words, voice activity and voiceprints, no server.",
+    "stats": [
+      {
+        "value": "5 models",
+        "label": "9.1 MB together"
+      },
+      {
+        "value": "185 KB",
+        "label": "Rust engine (brotli)"
+      },
+      {
+        "value": "−33 dB",
+        "label": "other voices, Focus 1"
+      },
+      {
+        "value": "5 SDKs",
+        "label": "web, Python, Android, iOS, RN"
+      }
+    ],
+    "foot": "alkove.ai · Apache-2.0 code + weights"
+  },
+  "assistant": {
+    "kicker": "DAY JOB · AGENTS IN PRODUCTION",
+    "title": "AI assistant",
+    "text": "Reads people's documents and messages, acts on them, and runs the support desk before a human steps in.",
+    "stats": [
+      {
+        "value": "100k+",
+        "label": "users reached"
+      },
+      {
+        "value": "300+",
+        "label": "tools it can call"
+      },
+      {
+        "value": "10",
+        "label": "languages"
+      },
+      {
+        "value": "99 %",
+        "label": "cache hits on the main agent"
+      }
+    ],
+    "foot": "writes go through an approval card first"
+  },
+  "brindille": {
+    "title": "Brindille",
+    "text": "French text-to-speech in your browser. 93,734 parameters, 2.7 MB with its engine.",
+    "badge": "93,734 params · 2.7 MB"
+  },
+  "podcast": {
+    "title": "Weekly podcast",
+    "text": "Generated from company news",
+    "badge": "AI · weekly"
+  },
+  "spascii": {
+    "title": "Spascii",
+    "text": "A slow space game drawn in ASCII. You talk to the crew in your own words, and a small embedding model in your browser understands you. No LLM."
+  },
+  "discord": {
+    "title": "n8n-nodes-discord",
+    "text": "Discord triggers for n8n",
+    "stars": "41"
+  },
+  "redteam": {
+    "kicker": "SECURITY · REPO",
+    "title": "agent-redteam",
+    "text": "Test your own AI agent before someone else does: injection, tool abuse, data leaks. Ends with a report and a regression pack.",
+    "foot": "github.com/edbrdi/agent-redteam"
+  },
+  "article": {
+    "kicker": "SECURITY · ARTICLE",
+    "title": "Can a plain table hijack an AI agent?",
+    "text": "Hardened models flagged every instruction I hid in a tool result. A plain table with no instruction in it got all three.",
+    "foot": "dev.to/edbrdi"
+  },
+  "models": [
+    {
+      "glyph": "F",
+      "name": "Focus 1",
+      "job": "Voice isolation",
+      "size": "2.3 MB",
+      "tag": "stable",
+      "color": "#e0702c",
+      "href": "https://huggingface.co/alkove-ai/alkove-focus-1"
+    },
+    {
+      "glyph": "T",
+      "name": "Timbre 1",
+      "job": "Voiceprint",
+      "size": "0.97 MB",
+      "tag": "stable",
+      "color": "#7b4fd8",
+      "href": "https://huggingface.co/alkove-ai/alkove-timbre-1"
+    },
+    {
+      "glyph": "S",
+      "name": "Spot",
+      "job": "Keyword spotting",
+      "size": "2.8 MB",
+      "tag": "preview",
+      "color": "#1c8ad0",
+      "href": "https://huggingface.co/alkove-ai/alkove-spot-1-preview"
+    },
+    {
+      "glyph": "C",
+      "name": "Cue",
+      "job": "End of turn",
+      "size": "1.2 MB",
+      "tag": "preview",
+      "color": "#d6406a",
+      "href": "https://huggingface.co/alkove-ai/alkove-cue-1-preview"
+    },
+    {
+      "glyph": "L",
+      "name": "Lex",
+      "job": "Text to phonemes",
+      "size": "1.8 MB",
+      "tag": "preview",
+      "color": "#138f68",
+      "href": "https://huggingface.co/alkove-ai/alkove-lex-1-preview"
+    }
+  ],
+  "links": {
+    "alkove": "https://alkove.ai",
+    "brindille": "https://huggingface.co/spaces/edbrdi/brindille",
+    "spascii": "https://subtle-cobbler-738f09.netlify.app/",
+    "discord": "https://github.com/edbrdi/n8n-nodes-discord",
+    "redteam": "https://github.com/edbrdi/agent-redteam",
+    "article": "https://dev.to/edbrdi/can-a-plain-table-hijack-an-ai-agent-2pde",
+    "models": "https://huggingface.co/alkove-ai",
+    "blog": "https://alkove.ai/blog/"
+  },
+  "videos": {
+    "alkove-demo": "Alkove on the site demo: music and two voices, then voice A only, then voice B only. Sound on.",
+    "podcast": "An excerpt of a weekly podcast written and voiced by AI from a company's own content. Sound on."
+  },
+  "blogTitle": "Latest on the Alkove blog",
+  "radio": {
+    "title": "HOW THE WEEKLY PODCAST IS MADE, EVERY WEEK, IN 10 LANGUAGES",
+    "steps": [
+      {
+        "title": "Collect",
+        "text": "The week's posts, events, job offers, shared docs and news feeds"
+      },
+      {
+        "title": "Digest",
+        "text": "Highlights, each with a ledger of names, dates and places"
+      },
+      {
+        "title": "Write",
+        "text": "A two-host script from those digests only, nothing invented"
+      },
+      {
+        "title": "Fact-check",
+        "text": "Every line checked against the raw sources; flagged lines rewritten",
+        "hot": true
+      },
+      {
+        "title": "Voice",
+        "text": "Each line voiced, then re-transcribed: no word dropped or added",
+        "hot": true
+      }
+    ]
+  }
+}

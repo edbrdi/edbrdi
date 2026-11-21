@@ -1,0 +1,17 @@
+[
+  {
+    "href": "https://alkove.ai/blog/voice-agent-anatomy/",
+    "title": "Anatomy of a voice agent",
+    "desc": "From the microphone to the agent's reply: what each part does, and what breaks without it."
+  },
+  {
+    "href": "https://alkove.ai/blog/perceived-latency/",
+    "title": "Answering sooner without being faster",
+    "desc": "A small decision model picks a waiting phrase while the words are transcribed, and the silence after the user stops shrinks."
+  },
+  {
+    "href": "https://alkove.ai/blog/typed-wake-word/",
+    "title": "A wake word you type",
+    "desc": "Letters become sounds with Lex, sounds become a detection with Spot: any word, in 7 languages, with no training and no recording."
+  }
+]
